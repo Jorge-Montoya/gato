@@ -28,12 +28,13 @@
 
             padding: 25px;
             margin: 10px solid black;
-            background-color: orangered;
+            background-color: blue;
         }
+        
     </style>
 </head>
 <body>
-    <div class="div-contenedor">
+    <div id="app" class="div-contenedor">
         <div class="hj">1</div>
         <div class="hj">2</div>
         <div class="hj">3</div>
@@ -44,5 +45,15 @@
         <div class="hj">8</div>
         <div class="hj">9</div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script>
+        var Bm =new Vue({
+            el:"%app"m,
+            data:
+            {
+
+            },
+        })
+    </script>
 </body>
 </html>
